@@ -1,3 +1,7 @@
-<script setup></script>
+<script setup>
+import DisplayButton from './components/DisplayButton.vue'
+</script>
 
-<template></template>
+<template>
+  <DisplayButton />
+</template>

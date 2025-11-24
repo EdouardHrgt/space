@@ -9,63 +9,69 @@
   user-select: none;
 }
 
-.preset-1 {
+body {
+  background-color: hsl(230, 35%, 7%);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.tp-1 {
   font-family: 'Bellefair', serif;
   font-size: 144px;
   line-height: 171.9%;
   letter-spacing: 0px;
 }
 
-.preset-2 {
+.tp-2 {
   font-family: 'Bellefair', serif;
   font-size: 100px;
   line-height: 114.6%;
   letter-spacing: 0px;
 }
 
-.preset-3 {
+.tp-3 {
   font-family: 'Bellefair', serif;
   font-size: 56px;
   line-height: 64.2%;
   letter-spacing: 0px;
 }
 
-.preset-4 {
+.tp-4 {
   font-family: 'Bellefair', serif;
   font-size: 32px;
   line-height: 36.7%;
   letter-spacing: 0px;
 }
 
-.preset-5 {
+.tp-5 {
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 28px;
   line-height: 33.6%;
   letter-spacing: 4px;
 }
 
-.preset-6 {
+.tp-6 {
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 28px;
   line-height: 32.1%;
   letter-spacing: 0px;
 }
 
-.preset-7 {
+.tp-7 {
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 14px;
   line-height: 16.8%;
   letter-spacing: 2px;
 }
 
-.preset-8 {
+.tp-8 {
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 16px;
   line-height: 19.2%;
   letter-spacing: 2px;
 }
 
-.preset-9 {
+.tp-9 {
   font-family: 'Barlow', sans-serif;
   font-size: 18px;
   line-height: 180%;
@@ -77,5 +83,8 @@
   background-color: var(--color-blue-900);
 }
 
-
-@media (max-width: 900px) {}
+@media (max-width: 800px) {
+  .tp-4 {
+    font-size: 18px;
+  }
+}
