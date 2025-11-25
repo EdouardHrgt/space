@@ -4,7 +4,7 @@ import NavMenu from '@/components/NavMenu.vue'
 
 <template>
   <NavMenu />
-  <main class="">
+  <main class="h-screen">
     <RouterView />
   </main>
 </template>

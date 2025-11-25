@@ -78,9 +78,13 @@ body {
   letter-spacing: 0px;
 }
 
-.test {
-  color: var(--color-blue-300);
-  background-color: var(--color-blue-900);
+@media (max-width: 1024px) {
+  .tp-1 {
+
+    font-size: 144px;
+    line-height: 125%;
+
+  }
 }
 
 @media (max-width: 800px) {

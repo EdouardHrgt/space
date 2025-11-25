@@ -36,11 +36,11 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <header class="flex items-center py-[2rem] fixed top-0 left-0 right-0 max-[1024px]:gap-[2rem]">
+  <header class="flex items-center py-[2rem] fixed top-0 left-0 right-0 max-[1024px]:gap-[2rem] max-[1024px]:py-[0] max-[800px]:py-[2rem] z-[1000]">
     <img src="/images/shared/logo.svg" alt="Space logo" class="ml-[2rem]" />
     <nav
       ref="navRef"
-      class="relative px-[6rem] py-[2.5rem] ml-auto bg-white/10 backdrop-blur-lg max-[1024px]:w-[100%] max-[800px]:fixed max-[800px]:top-0 max-[800px]:w-[70%] max-[800px]:bottom-0 max-[800px]:transition-all max-[800px]:duration-300"
+      class="relative z-[999] px-[6rem] py-[2.5rem] ml-auto bg-white/10 backdrop-blur-lg max-[1024px]:w-[100%] max-[800px]:fixed max-[800px]:top-0 max-[800px]:w-[70%] max-[800px]:bottom-0 max-[800px]:transition-all max-[800px]:duration-300"
       :class="menu ? 'max-[800px]:right-0' : 'max-[800px]:right-[-100%]'"
     >
       <span
@@ -71,7 +71,7 @@ onUnmounted(() => {
     <img
       src="/images/shared/icon-hamburger.svg"
       alt="Open the navigation"
-      class="cursor-pointer hidden ml-auto mr-[2rem] z-[999]"
+      class="cursor-pointer hidden ml-auto mr-[2rem] z-[1001]"
       :class="menu ? 'max-[800px]:hidden' : 'max-[800px]:block'"
       @click="menu = true"
     />
@@ -79,7 +79,7 @@ onUnmounted(() => {
     <img
       src="/images/shared/icon-close.svg"
       alt="Close the navigation"
-      class="cursor-pointer ml-auto mr-[2rem] z-[999] hidden"
+      class="cursor-pointer ml-auto mr-[2rem] z-[1001] hidden"
       :class="menu ? 'max-[800px]:block' : ''"
       @click="closeMenu"
     />
