@@ -1,7 +1,10 @@
 <script setup>
-import DisplayButton from './components/DisplayButton.vue'
+import NavMenu from '@/components/NavMenu.vue'
 </script>
 
 <template>
-  <DisplayButton />
+  <NavMenu />
+  <main class="">
+    <RouterView />
+  </main>
 </template>
