@@ -63,7 +63,7 @@ onUnmounted(() => {
           </router-link>
 
           <span
-            class="pointer-events-none absolute left-0 h-[4px] bg-white translate-y-[50px] w-0 group-hover:w-full group-focus-within:w-full group-has-[.active-link]:w-full transition-all duration-300 ease-out max-[800px]:left-auto max-[800px]:right-[-1rem] max-[800px]:top-0 max-[800px]:bottom-0 max-[800px]:h-full max-[800px]:w-0 max-[800px]:translate-y-0 max-[800px]:translate-x-0 max-[800px]:group-hover:w-[3px] max-[800px]:group-focus-within:w-[3px] max-[800px]:group-has-[.active-link]:w-[3px]"
+            class="pointer-events-none absolute left-0 h-[4px] bg-white translate-y-[50px] w-0 group-hover:w-full group-focus-within:w-full group-has-[.active-link]:w-full transition-all duration-300 max-[800px]:duration-0 ease-out max-[800px]:left-auto max-[800px]:right-[-1rem] max-[800px]:top-0 max-[800px]:bottom-0 max-[800px]:h-full max-[800px]:w-0 max-[800px]:translate-y-0 max-[800px]:translate-x-0 max-[800px]:group-hover:w-[3px] max-[800px]:group-focus-within:w-[3px] max-[800px]:group-has-[.active-link]:w-[3px]"
           ></span>
         </li>
       </ul>

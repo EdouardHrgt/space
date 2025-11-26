@@ -5,7 +5,7 @@ import CrewView from './views/CrewView.vue'
 
 export const routes = [
   { path: '/', component: HomeView },
-  { path: '/destination', component: DestinationView },
+  { path: '/destination/:planet?', component: DestinationView },
   { path: '/crew', component: CrewView },
-  { path: '/technology', component: TechnologyView }
+  { path: '/technology', component: TechnologyView },
 ]
