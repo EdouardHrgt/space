@@ -14,25 +14,6 @@ const closeMenu = () => {
   menu.value = false
 }
 
-const handleClickOutside = (event) => {
-  if (
-    navRef.value &&
-    !navRef.value.contains(event.target) &&
-    !hamburgerRef.value?.contains(event.target) &&
-    !closeRef.value?.contains(event.target) &&
-    menu.value
-  ) {
-    closeMenu()
-  }
-}
-
-onMounted(() => {
-  document.addEventListener('click', handleClickOutside)
-})
-
-onUnmounted(() => {
-  document.removeEventListener('click', handleClickOutside)
-})
 </script>
 
 <template>
