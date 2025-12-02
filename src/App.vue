@@ -78,7 +78,7 @@ onMounted(() => {
 
   <audio ref="ambientAudio" src="/ambient-sound.mp3" preload="auto"></audio>
   <NavMenu />
-  <main class="h-screen">
+  <main class="h-screen min-[1025px]:overflow-hidden">
     <RouterView />
   </main>
 </template>

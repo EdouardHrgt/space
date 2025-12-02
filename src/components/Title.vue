@@ -6,7 +6,7 @@ defineProps({
 </script>
 
 <template>
-  <h1 class="mb-[4rem] tp-10 max-[800px]:mb-[1.5rem] text-white uppercase max-[800px]:text-center max-[800px]:mb-[3rem] max-[800px]:mt-[4rem]">
+  <h1 class="tp-10 max-[800px]:mb-[1.5rem] text-white uppercase max-[800px]:text-center max-[800px]:mb-[3rem] max-[800px]:mt-[4rem]">
     <span class="tp-5 text-blue-300/50 mr-[1rem] font-bold max-[800px]:mr-[5px]">{{ number }}</span> {{ label }}
   </h1>
 </template>

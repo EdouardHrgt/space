@@ -13,7 +13,6 @@ const fetchData = async () => {
     if (!res.ok) throw new Error('Error on Fetch')
     const json = await res.json()
     planetsData.value = json.destinations
-    console.table(planetsData.value)
   } catch (error) {
     console.warn('Error While fetching datas... ' + error)
   }
@@ -68,7 +67,7 @@ onMounted(() => {
     </div>
 
     <div v-if="currentPlanet" class="px-[2rem] w-full relative z-10">
-      <Title label="pick your destination" number="01" />
+      <Title label="pick your destination" number="01" class="mb-[4rem]"/>
       <article
         class="grid grid-cols-2 max-[800px]:grid-cols-1 w-full gap-[6rem] max-[800px]:gap-[2.5rem] min-[801px]:items-center"
       >
@@ -91,7 +90,7 @@ onMounted(() => {
   </section>
 </template>
 
-<style scoped>
+<style>
 @keyframes float {
   0% {
     transform: translate(0, 0);
