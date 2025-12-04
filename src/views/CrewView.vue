@@ -40,7 +40,7 @@ onMounted(() => {
   </section>
 </template>
 
-<style scoped>
+<style >
 .shooting-stars {
   position: absolute;
   top: 0;

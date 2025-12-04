@@ -32,7 +32,7 @@ const closeModalWithoutSound = () => {
 
 onMounted(() => {
   if (ambientAudio.value) {
-    ambientAudio.value.volume = 0.1
+    ambientAudio.value.volume = 0.05
     ambientAudio.value.loop = true
   }
 })
